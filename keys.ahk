@@ -22,17 +22,10 @@ AppsKey & Right::Send, {End}
 
 #x::RunOrActivate("C:\Program Files (x86)\JetBrains\PhpStorm 3.0\bin\PhpStorm.exe")
 #a::RunOrActivate("C:\Program Files (x86)\Ableton\Live 8.2.6\Program\Live 8.2.6.exe")
-#c::RunOrActivate("C:\Users\metaeaux\AppData\Local\Google\Chrome\Application\chrome.exe", "Google Chrome")
-+#c::
-RunOrActivate("C:\Users\metaeaux\AppData\Local\Google\Chrome\Application\chrome.exe", "Google Chrome")
-Send, ^{t}
-return
 #v::RunOrActivate("C:\Program Files (x86)\Mozilla Firefox\firefox.exe")
 #n::RunOrActivate("C:\Program Files (x86)\Notepad++\notepad++.exe")
 #z::RunOrActivate("C:\Program Files (x86)\Songbird\songbird.exe")
-#m::RunOrActivate("C:\Users\metaeaux\AppData\Local\Google\Chrome\Application\chrome.exe  --app=https://mail.google.com/mail/u/0")
 #p::RunOrActivate("C:\Program Files\Adobe\Adobe Photoshop CS5.1\Photoshop.exe")
-#t::RunOrActivate("C:\Program Files (x86)\Trillian\trillian.exe", "ahk_class icoMSN")
 #=::RunOrActivate("calc.exe")
 
 RunOrActivate(Target, WinTitle = "")
